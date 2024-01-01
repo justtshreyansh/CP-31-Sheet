@@ -1,1 +1,5 @@
-<h1 style="text:aqua">CP-31 Sheet</h1>
+<h1>CP-31 Sheet</h1>
+<ol>
+<li>800 Rated Problems:
+<ol>
+<li>Halloumi Boxes
