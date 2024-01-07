@@ -8,3 +8,4 @@
 <li>Game with integers.
 <li>Jagged Swaps.
 <li>Dormay's paint 3.
+<li>Don't try to count.
