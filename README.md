@@ -7,3 +7,4 @@
 <li>Cover in water.
 <li>Game with integers.
 <li>Jagged Swaps.
+<li>Dormay's paint 3.
