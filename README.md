@@ -6,3 +6,4 @@
 <li>Line Trip.
 <li>Cover in water.
 <li>Game with integers.
+<li>Jagged Swaps.
