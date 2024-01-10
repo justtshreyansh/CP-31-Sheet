@@ -10,3 +10,4 @@
 <li>Dormay's paint 3.
 <li>Don't try to count.
 <li>How much does  daytona count.
+<li>Goals of victory.
