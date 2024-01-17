@@ -15,3 +15,5 @@
 <li>Ambitious kid.
 <li>Sequence game.
 <li>Buttons.
+<li>Array coloring.
+<li>Desorting.
