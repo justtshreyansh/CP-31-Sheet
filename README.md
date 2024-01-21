@@ -19,3 +19,5 @@
 <li>Desorting.
 <li>Grasshopper on a line.
 <li>Unit array.
+<li>Twin permutation.
+<li>Blank space.
