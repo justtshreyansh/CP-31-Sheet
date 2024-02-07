@@ -1,36 +1,15 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    int t;
-    cin>>t;
-    while(t--){
-        int n,k;
-        cin>>n>>k;
-        int arr[n];
-        for(int i=0;i<n;i++){
-            cin>>arr[i];
-        }
-        int mini = arr[0];
-        for(int i=0;i<n;i++){
-            mini = min(mini,arr[i]);
-        }
-        long long prod =1;
-        for(int i=0;i<n;i++){
-            prod*=arr[i];
-        }
-        prod= prod/mini;
-        int count =0;
-        while(true){
-            if((prod*mini)%k==0){
-                cout<<count<<endl;
-                break;
-
-            } 
-            else{
-                mini++;
-                count++;
-            }
-        }
+    int arr[100] = {1,2,4,5,6};
+    int size = 5;
+    int pos = 3;
+    int value = 3;
+    for(int i=size-1;i>=pos-1;i--){
+        arr[i+1]  = arr[i];
     }
+    arr[pos-1]  = value;
+    size++;
+    for(int i=0;i<size;i++) cout<<arr[i];
     return 0;
 }
