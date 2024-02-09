@@ -10,12 +10,13 @@ int main(){
         for(long long i=0;i<n;i++){
             cin>>arr[i];
         }
-        while(q--){
-            vector<int>prefix(n, 0);
+         vector<int>prefix(n, 0);
     for(int i=0;i<n;i++)    
         {
       prefix[i] = (i > 0 ? prefix[i - 1] : 0) + arr[i];
     }
+        while(q--){
+           
             int l, r, k;
 cin >> l >> r >> k;
 l--;r--; 
